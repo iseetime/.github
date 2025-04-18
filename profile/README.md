@@ -1,81 +1,81 @@
-# iseetime 🕒
+# iseetime 🕒 *[Work in Progress]*
 
-**Open-core time tracking for individuals and teams**  
-*Track time effortlessly, integrate with Jira/Azure DevOps, and own your data.*  
+**An open-core time tracker under active development.**  
+*Help us build a privacy-focused alternative to Timeular/Clockify!*  
 
-![Demo](https://placehold.co/600x400?text=Demo+GIF+Here)  
-*(Replace with a screenshot or demo GIF later)*  
-
----
-
-## 🚀 Philosophy  
-**Open by default, practical for everyone.**  
-- **Core components** (desktop app, server, browser extension) are **100% open-source** (AGPLv3/GPLv3).  
-- **Proprietary tools** (hosting setup, enterprise plugins) fund development and support.  
-- No artificial limits – self-host freely or [use our hosted service](https://iseetime.com).  
+![WIP Banner](https://placehold.co/600x100?text=🚧+Under+Construction+🚧)  
 
 ---
 
-## 📦 Components  
+## 🚧 Current Status  
+We’re in **early development** – expect breaking changes and missing features.  
+- **Desktop App**: Basic time tracking (MVP in progress).  
+- **Browser Extension**: Proof-of-concept for Jira/Azure DevOps.  
+- **Server**: Core API skeleton (AGPLv3).  
 
-| Component               | Repository                          | License     | Purpose                              |  
-|-------------------------|-------------------------------------|-------------|--------------------------------------|  
-| **Desktop App**         | [iseetime/desktop](link)            | `GPLv3`     | Cross-platform time tracking (Win/macOS/Linux). |  
-| **Browser Extension**   | [iseetime/browser-extension](link)  | `MIT`       | Integrate with Jira/Azure DevOps.    |  
-| **Server Core**         | [iseetime/server-core](link)        | `AGPLv3`    | Self-hostable backend API + database.|  
-| **Plugins**             | [iseetime/plugins](link)            | `Apache 2.0`| SSO, advanced exports, and more.     |  
-| *Infrastructure*        | *Private*                           | Proprietary | Scalable cloud setup (Terraform/K8s).|  
-| *Admin Tools*           | *Private*                           | Proprietary | License management and billing.      |  
+**Want to help?** Jump to [Contributing](#-contributing).  
 
 ---
 
-## 🛠️ Getting Started  
+## 📂 Repo Structure  
 
-### For Users  
-1. **Download the desktop app**: [iseetime/desktop](link)  
-2. **Install the browser extension**: [Chrome Web Store](link) / [Firefox Add-ons](link)  
-3. **Self-host the server**: [iseetime/server-core](link) or [sign up for hosted service](https://iseetime.com).  
+| Component               | Repository                          | Status               |  
+|-------------------------|-------------------------------------|----------------------|  
+| **Desktop App**         | [iseetime/desktop](link)            | `Alpha` (Rust/Tauri) |  
+| **Browser Extension**   | [iseetime/browser-extension](link)  | `Proof of Concept`   |  
+| **Server Core**         | [iseetime/server-core](link)        | `Skeleton` (Go/PostgreSQL) |  
+| **Docs**                | [iseetime/docs](link)               | `Draft`              |  
 
-### For Developers  
+*(Private repos: `infra`, `admin` – not yet public)*  
+
+---
+
+## 🛠️ Getting Started (Developers)  
+
+### Prerequisites  
+- Rust (desktop app)  
+- Go (server)  
+- PostgreSQL (server)  
+
+### Clone & Build  
 ```bash
-# Clone the core components
-git clone https://github.com/iseetime/desktop.git
-git clone https://github.com/iseetime/server-core.git
-```
+# Clone all repos (public only)
+git clone https://github.com/iseetime/desktop.git  
+git clone https://github.com/iseetime/server-core.git  
+```  
 
 ---
 
 ## 🤝 Contributing  
-We welcome contributions to all **open-source components**!  
-- 🐛 **Bug reports**: Open an issue in the relevant repo.  
-- 🌟 **Feature requests**: Discuss in [Discussions](link).  
-- 💻 **Code**: Submit PRs to `main` (see [Contribution Guidelines](link)).  
+**We need help with:**  
+- 🖥️ **Desktop App**: UI/UX design, auto-tracking logic.  
+- 🌐 **Browser Extension**: Jira/Azure DevOps API integration.  
+- 📡 **Server**: Authentication, database schema design.  
 
-**Monetization Note**:  
-- Core features stay open forever.  
-- We fund development via [hosted services](https://iseetime.com) and enterprise plugins.  
+**Steps:**  
+1. Check [Good First Issues](link).  
+2. Comment on an issue to claim it.  
+3. Follow our [trunk-based workflow](link).  
 
 ---
 
-## ❓ FAQ  
+## 📅 Roadmap  
+| Phase       | Goal                               | ETA       |  
+|-------------|------------------------------------|-----------|  
+| **TBA** | Desktop MVP (basic tracking)      | TBA  |  
+| **TBA** | Browser extension MVP              | TBA  |  
+| **TBA** | Hosted service beta                | TBA  |  
 
-### Q: Can I self-host the server for my company?  
-**A:** Yes! The [AGPLv3 server-core](link) has no user limits. Need help? [Contact us](mailto:support@iseetime.com) for enterprise support.  
+---
 
-### Q: Why are some components closed-source?  
-**A:** Proprietary tools (infra/admin) fund development. We’ll never retroactively close open-source code.  
-
-### Q: Can I build a plugin?  
-**A:** Absolutely! Check out [iseetime/plugins](link) for examples.  
+## 🚨 Warning  
+This project is **not production-ready**. Expect:  
+- ⚠️ Breaking API changes.  
+- 🐛 Unstable features.  
+- 📉 Missing documentation.  
 
 ---
 
 ## 📜 License  
-- **Core code**: [AGPLv3](LICENSE) (server) / [GPLv3](link) (desktop).  
-- **Third-party plugins**: Check individual repo licenses.  
-- **Proprietary components**: Contact [sales@iseetime.com](mailto:sales@iseetime.com).  
-
----
-
-## 🙌 Acknowledgements  
-Inspired by the ethos of [Nextcloud](https://nextcloud.com) and [GitLab](https://gitlab.com).  
+- Core components: [AGPLv3](LICENSE).  
+- *Proprietary tools (future): Contact [team@iseetime.com](mailto:team@iseetime.com).*  
