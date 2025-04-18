@@ -41,3 +41,41 @@
 # Clone the core components
 git clone https://github.com/iseetime/desktop.git
 git clone https://github.com/iseetime/server-core.git
+```
+
+---
+
+## 🤝 Contributing  
+We welcome contributions to all **open-source components**!  
+- 🐛 **Bug reports**: Open an issue in the relevant repo.  
+- 🌟 **Feature requests**: Discuss in [Discussions](link).  
+- 💻 **Code**: Submit PRs to `main` (see [Contribution Guidelines](link)).  
+
+**Monetization Note**:  
+- Core features stay open forever.  
+- We fund development via [hosted services](https://iseetime.com) and enterprise plugins.  
+
+---
+
+## ❓ FAQ  
+
+### Q: Can I self-host the server for my company?  
+**A:** Yes! The [AGPLv3 server-core](link) has no user limits. Need help? [Contact us](mailto:support@iseetime.com) for enterprise support.  
+
+### Q: Why are some components closed-source?  
+**A:** Proprietary tools (infra/admin) fund development. We’ll never retroactively close open-source code.  
+
+### Q: Can I build a plugin?  
+**A:** Absolutely! Check out [iseetime/plugins](link) for examples.  
+
+---
+
+## 📜 License  
+- **Core code**: [AGPLv3](LICENSE) (server) / [GPLv3](link) (desktop).  
+- **Third-party plugins**: Check individual repo licenses.  
+- **Proprietary components**: Contact [sales@iseetime.com](mailto:sales@iseetime.com).  
+
+---
+
+## 🙌 Acknowledgements  
+Inspired by the ethos of [Nextcloud](https://nextcloud.com) and [GitLab](https://gitlab.com).  
